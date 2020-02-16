@@ -1612,6 +1612,9 @@ def fetch_incidents():
         query_status = response_json.get('queryStatus', '')
         if query_status == 'JOB_FAILED':
             demisto.debug(f'Logging query job failed with status: JOB_FAILED\nResponse: {response.text}')
+            demisto.setLastRun({
+                'last_fetched_event_timestamp': max_fetched_event_timestamp.strftime('%Y-%m-%dT%H:%M:%S.%f')
+            })
         elif query_status == 'RUNNING':
             if isinstance(last_fetched_event_timestamp, datetime):
                 # In case we don't have query ID from previous run

@@ -1,5 +1,5 @@
 ## [Unreleased]
-
+Fixing a bug that cause fetch incidents fail after unsuccessful query.
 
 ## [19.12.1] - 2019-12-25
 Fixed an issue with the fetch incidents function in which failed jobs raised an exception.
