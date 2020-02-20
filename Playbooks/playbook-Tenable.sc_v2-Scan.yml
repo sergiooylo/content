@@ -1,4 +1,4 @@
-id: tenable-sc-scan
+id: Launch Scan - Tenable.sc v2
 version: -1
 name: Launch Scan - Tenable.sc v2
 description: Launches an existing Tenable.sc v2 scan by scan ID and waits for the scan
@@ -351,4 +351,4 @@ outputs:
   description: Scan vulnerability total hosts
   type: number
 tests:
-  - tenable-sc-test
+  - Tenable.sc v2 Test
