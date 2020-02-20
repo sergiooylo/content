@@ -1,8 +1,7 @@
 category: Vulnerability Management
 commonfields:
-  id: Tenable.sc
+  id: Tenable.sc v2
   version: -1
-deprecated: true
 configuration:
 - display: Server URL (e.g. https://192.168.0.1)
   name: server
@@ -34,9 +33,10 @@ configuration:
   name: fetch_time
   required: false
   type: 0
-description: Tenable.sc is now deprecated please use Tenable.sc v2 instead.
-display: Tenable.sc
-name: Tenable.sc
+description: 'With Tenable.sc (formerly SecurityCenter) you get a real-time,
+              continuous assessment of your security posture so you can find and fix vulnerabilities faster.'
+display: Tenable.sc v2
+name: Tenable.sc v2
 script:
   commands:
   - arguments:
@@ -1126,6 +1126,7 @@ script:
   runonce: false
   script: '-'
   type: python
-  subtype: python2
+  subtype: python3
+  dockerimage: demisto/python3:3.8.1.5734
 tests:
 - tenable-sc-test
