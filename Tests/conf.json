@@ -416,7 +416,7 @@
             "playbookID": "awake_security_test_pb"
         },
         {
-            "integrations": "Tenable.sc",
+            "integrations": "Tenable.sc v2",
             "playbookID": "tenable-sc-test",
             "timeout": 240,
             "nightly": true
@@ -494,7 +494,7 @@
             "timeout": 900
         },
         {
-            "integrations": "Tenable.sc",
+            "integrations": "Tenable.sc v2",
             "playbookID": "tenable-sc-scan-test",
             "nightly": true,
             "timeout": 600
