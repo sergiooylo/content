@@ -402,12 +402,6 @@ def test_safe_load_json():
     assert expected_valid_json_result == safe_load_json(valid_json_str)
 
 
-def test_datetime_to_string():
-    datetime_obj = datetime.now()
-    datetime_str = datetime_to_string(datetime_obj)
-    assert isinstance(datetime_str, str)
-
-
 def test_remove_empty_elements():
     test_dict = {
         "foo": "bar",
