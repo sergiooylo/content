@@ -23,7 +23,7 @@ configuration:
 - additionalinfo: Reliability of the source providing the intelligence data
   defaultvalue: A - Completely reliable
   display: Source Reliability
-  name: feedReliability
+  name: Reliability
   options:
   - A - Completely reliable
   - B - Usually reliable
@@ -91,5 +91,5 @@ script:
   script: '-'
   type: python
   subtype: python3
-  dockerimage: demisto/jmespath:1.0.0.5129
+  dockerimage: demisto/jmespath:1.0.0.6232
 fromversion: 5.5.0
