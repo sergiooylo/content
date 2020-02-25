@@ -33,7 +33,7 @@ configuration:
   - F - Reliability cannot be judged
   required: true
   type: 15
-- defaultvalue: indicatorType
+- defaultvalue: indicarType
   display: ""
   name: feedExpirationPolicy
   options:

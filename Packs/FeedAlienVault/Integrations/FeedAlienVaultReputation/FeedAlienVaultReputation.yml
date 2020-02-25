@@ -35,7 +35,7 @@ configuration:
   additionalinfo: Reliability of the source providing the intelligence data
 - display: ""
   name: feedExpirationPolicy
-  defaultvalue: indicatorType
+  defaultvalue: iatorType
   type: 17
   required: false
   options:
